@@ -72,8 +72,10 @@ pip install numpy
 ```bash
 git clone https://github.com/Rifa-Tasfiya/CSE721-Project.git
 cd CSE721-Project
-```bash
 ---
+```
+
+
 ## References
 - GeeksforGeeks: https://www.geeksforgeeks.org/
 - Trappe, W., & Washington, L. C. (2006). *Introduction to Cryptography with Coding Theory*. Pearson Prentice Hall.
