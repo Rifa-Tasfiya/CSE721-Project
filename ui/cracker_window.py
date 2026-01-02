@@ -1,7 +1,6 @@
 from tkinter import *
 from tkinter import messagebox
 
-# ✅ change this import to your new comma-list attack file
 # from attacks.hill_known_plaintext import recover_hill2x2_key_from_strings
 from attacks.hill_known_plaintext import recover_hill2x2_key_from_strings
 
