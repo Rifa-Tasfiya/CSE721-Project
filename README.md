@@ -72,7 +72,7 @@ pip install numpy
 ```bash
 git clone https://github.com/Rifa-Tasfiya/CSE721-Project.git
 cd CSE721-Project
-
+```bash
 ---
 ## References
 - GeeksforGeeks: https://www.geeksforgeeks.org/
