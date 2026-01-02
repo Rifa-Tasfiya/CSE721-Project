@@ -76,7 +76,7 @@ def open_cracker_window(parent):
 
     frame.grid_columnconfigure(1, weight=1)
 
-    # ✅ Now these are comma-separated lists
+    
     plain_csv = labeled_entry(0, "Known Plaintexts (comma-separated):")
     cipher_csv = labeled_entry(1, "Known Ciphertexts (comma-separated):")
 
