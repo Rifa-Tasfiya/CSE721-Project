@@ -71,8 +71,10 @@ pip install numpy
 
 ```
 ## How to Clone and Run the Project
+```bash
 git clone https://github.com/Rifa-Tasfiya/CSE721-Project.git
 cd CSE721-Project
+```
 
 
 ## References
