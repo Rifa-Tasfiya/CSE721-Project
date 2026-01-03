@@ -112,7 +112,7 @@ def playfair_encrypt(plaintext, keyword):
     plaintext = clean_text(plaintext)
     plaintext = insert_filler_x(plaintext)
 
-    # if odd length, pad with x (your requirement)
+    # if odd length, pad with x
     if len(plaintext) % 2 != 0:
         plaintext += 'x'
 
@@ -122,7 +122,6 @@ def playfair_encrypt(plaintext, keyword):
     cipher_text = ""
 
     for pair in digraphs:
-        # extra safety (should not happen now)
         if len(pair) != 2:
             pair = pair + 'x'
 

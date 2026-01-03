@@ -1,0 +1,20 @@
+# Sample Input-Output (Ceaser Cipher)
+Input: rifa
+Key: 3
+Output: ULID
+
+# Sample Input-Output (Affine Cipher)
+Input: affine
+Key: 9, 2
+Output: CVVWPM
+
+# Sample Input-Output (Playfair Cipher)
+Input: crypto is fun
+Keyword: chaum
+Output: APVSZTNPNFLY
+
+# Sample Input-Output (Hill Cipher)
+Input: attack
+Keyword: 2, 3, 3, 6
+Output: FKMFIO
+

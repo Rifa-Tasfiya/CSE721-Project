@@ -50,7 +50,6 @@ def affine_encrypt(plaintext, a, b):
 
 
 def affine_decrypt(ciphertext, a, b):
-    # check if key is valid
     ciphertext = clean_text(ciphertext)
     a = a % 26
     b = b % 26

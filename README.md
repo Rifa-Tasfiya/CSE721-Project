@@ -63,17 +63,16 @@ The application is platform-independent and can be executed on:
 ---
 
 ## Install Dependencies
+
+Make sure Python is installed on your system. Then install the required package:
+
 ```bash
 pip install numpy
 
+```
 ## How to Clone and Run the Project
-
-### Clone the Repository
-```bash
 git clone https://github.com/Rifa-Tasfiya/CSE721-Project.git
 cd CSE721-Project
----
-```
 
 
 ## References
