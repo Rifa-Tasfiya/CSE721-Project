@@ -1,6 +1,6 @@
 import numpy as np
 
-# Playfair uses 25 letters (I/J combined)
+# Playfair uses 25 letters as I/J combined
 ALPHABET_25 = [
     'a','b','c','d','e','f','g','h',
     'i','k','l','m','n','o','p','q',
