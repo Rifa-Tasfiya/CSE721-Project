@@ -152,7 +152,7 @@ def recover_hill2x2_key_from_strings(plaintexts_csv, ciphertexts_csv):
                         break
 
                 if verified:
-                    return K_candidate, "Recovered key using ROW model (C = P×K)"
+                    return K_candidate, "Recovered key."
 
         # PASS 2: COLUMN model (C = K×P)
         for i in range(total):
@@ -187,6 +187,6 @@ def recover_hill2x2_key_from_strings(plaintexts_csv, ciphertexts_csv):
                         break
 
                 if verified:
-                    return K_candidate, "Recovered key using COLUMN model (C = K×P)"
+                    return K_candidate, "Recovered key."
 
     return None, "Could not recover a key from the given pairs."

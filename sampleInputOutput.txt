@@ -18,3 +18,9 @@ Input: attack
 Keyword: 2, 3, 3, 6
 Output: FKMFIO
 
+# Sample Input-Output (Hill Cipher Attack)
+Plaintexts: attack, rifa, bangladesh
+Ciphertext: FKMFIO, GVKP, CDSXWHSHFS
+Key: 2, 3, 3, 6
+
+
